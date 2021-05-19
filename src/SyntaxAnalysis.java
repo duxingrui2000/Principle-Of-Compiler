@@ -121,7 +121,9 @@ public class SyntaxAnalysis {
         if (syntaxTree==null){
             return;
         }
+        System.out.println("\n\n\n\n\n-----------------使用前序遍历的方式去打印语法树-----------------");
         showTreeHelper(syntaxTree);
+        System.out.println("-----------------success-----------------");
     }
     /**
      * @return void
@@ -947,8 +949,8 @@ class SyntaxTreeNode {
     @Override
     public String toString() {
         return "SyntaxTreeNode{" +
-                "syntaxType=" + syntaxType +
-                ", token=" + token +
+                "  syntaxType= " + syntaxType +
+                ",\n                 token= " + token +
                 '}';
     }
 }

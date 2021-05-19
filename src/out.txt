@@ -1,43 +1,169 @@
 < reserved word£º"int" >
 < ID, name=£º"global" >
+< LMBRACKET£º"[" >
+< NUM, val=£º"10" >
+< RMBRACKET£º"]" >
 < SEMI£º";" >
 < reserved word£º"int" >
-< ID, name=£º"gcd" >
+< ID, name=£º"minloc" >
 < LPAREN£º"(" >
 < reserved word£º"int" >
-< ID, name=£º"u" >
+< ID, name=£º"a" >
+< LMBRACKET£º"[" >
+< RMBRACKET£º"]" >
 < COMMA£º"," >
 < reserved word£º"int" >
-< ID, name=£º"v" >
+< ID, name=£º"low" >
+< COMMA£º"," >
+< reserved word£º"int" >
+< ID, name=£º"high" >
 < RPAREN£º")" >
 < LBBRACKET£º"{" >
 < reserved word£º"int" >
-< ID, name=£º"local" >
+< ID, name=£º"i" >
 < SEMI£º";" >
+< reserved word£º"int" >
+< ID, name=£º"x" >
+< SEMI£º";" >
+< reserved word£º"int" >
+< ID, name=£º"k" >
+< SEMI£º";" >
+< ID, name=£º"k" >
+< ASSIGN£º"=" >
+< ID, name=£º"low" >
+< SEMI£º";" >
+< ID, name=£º"x" >
+< ASSIGN£º"=" >
+< ID, name=£º"a" >
+< LMBRACKET£º"[" >
+< ID, name=£º"low" >
+< RMBRACKET£º"]" >
+< SEMI£º";" >
+< ID, name=£º"i" >
+< ASSIGN£º"=" >
+< ID, name=£º"low" >
+< PLUS£º"+" >
+< NUM, val=£º"1" >
+< SEMI£º";" >
+< reserved word£º"while" >
+< LPAREN£º"(" >
+< ID, name=£º"i" >
+< LT£º"<" >
+< ID, name=£º"high" >
+< RPAREN£º")" >
+< LBBRACKET£º"{" >
 < reserved word£º"if" >
 < LPAREN£º"(" >
-< ID, name=£º"v" >
-< EQ£º"==" >
-< NUM, val=£º"0" >
+< ID, name=£º"a" >
+< LMBRACKET£º"[" >
+< ID, name=£º"i" >
+< RMBRACKET£º"]" >
+< LT£º"<" >
+< ID, name=£º"x" >
 < RPAREN£º")" >
-< reserved word£º"return" >
-< ID, name=£º"u" >
+< LBBRACKET£º"{" >
+< ID, name=£º"x" >
+< ASSIGN£º"=" >
+< ID, name=£º"a" >
+< LMBRACKET£º"[" >
+< ID, name=£º"i" >
+< RMBRACKET£º"]" >
 < SEMI£º";" >
-< reserved word£º"else" >
+< ID, name=£º"k" >
+< ASSIGN£º"=" >
+< ID, name=£º"i" >
+< SEMI£º";" >
+< ID, name=£º"i" >
+< ASSIGN£º"=" >
+< ID, name=£º"i" >
+< PLUS£º"+" >
+< NUM, val=£º"1" >
+< SEMI£º";" >
+< RBBRACKET£º"}" >
 < reserved word£º"return" >
-< ID, name=£º"gcd" >
+< ID, name=£º"k" >
+< SEMI£º";" >
+< RBBRACKET£º"}" >
+< RBBRACKET£º"}" >
+< reserved word£º"void" >
+< ID, name=£º"sort" >
 < LPAREN£º"(" >
-< ID, name=£º"v" >
+< reserved word£º"int" >
+< ID, name=£º"a" >
+< LMBRACKET£º"[" >
+< RMBRACKET£º"]" >
 < COMMA£º"," >
-< ID, name=£º"u" >
+< reserved word£º"int" >
+< ID, name=£º"low" >
+< COMMA£º"," >
+< reserved word£º"int" >
+< ID, name=£º"high" >
+< RPAREN£º")" >
+< LBBRACKET£º"{" >
+< reserved word£º"int" >
+< ID, name=£º"i" >
+< SEMI£º";" >
+< reserved word£º"int" >
+< ID, name=£º"k" >
+< SEMI£º";" >
+< ID, name=£º"i" >
+< ASSIGN£º"=" >
+< ID, name=£º"low" >
+< SEMI£º";" >
+< reserved word£º"while" >
+< LPAREN£º"(" >
+< ID, name=£º"i" >
+< LT£º"<" >
+< ID, name=£º"high" >
 < MINUS£º"-" >
-< ID, name=£º"u" >
-< OVER£º"/" >
-< ID, name=£º"v" >
-< TIMES£º"*" >
-< ID, name=£º"v" >
+< NUM, val=£º"1" >
+< RPAREN£º")" >
+< LBBRACKET£º"{" >
+< reserved word£º"int" >
+< ID, name=£º"t" >
+< SEMI£º";" >
+< ID, name=£º"k" >
+< ASSIGN£º"=" >
+< ID, name=£º"minloc" >
+< LPAREN£º"(" >
+< ID, name=£º"a" >
+< COMMA£º"," >
+< ID, name=£º"i" >
+< COMMA£º"," >
+< ID, name=£º"high" >
 < RPAREN£º")" >
 < SEMI£º";" >
+< ID, name=£º"t" >
+< ASSIGN£º"=" >
+< ID, name=£º"a" >
+< LMBRACKET£º"[" >
+< ID, name=£º"k" >
+< RMBRACKET£º"]" >
+< SEMI£º";" >
+< ID, name=£º"a" >
+< LMBRACKET£º"[" >
+< ID, name=£º"k" >
+< RMBRACKET£º"]" >
+< ASSIGN£º"=" >
+< ID, name=£º"a" >
+< LMBRACKET£º"[" >
+< ID, name=£º"i" >
+< RMBRACKET£º"]" >
+< SEMI£º";" >
+< ID, name=£º"a" >
+< LMBRACKET£º"[" >
+< ID, name=£º"i" >
+< RMBRACKET£º"]" >
+< ASSIGN£º"=" >
+< ID, name=£º"t" >
+< SEMI£º";" >
+< ID, name=£º"i" >
+< ASSIGN£º"=" >
+< ID, name=£º"i" >
+< PLUS£º"+" >
+< NUM, val=£º"1" >
+< SEMI£º";" >
+< RBBRACKET£º"}" >
 < RBBRACKET£º"}" >
 < reserved word£º"void" >
 < ID, name=£º"main" >
@@ -46,45 +172,66 @@
 < RPAREN£º")" >
 < LBBRACKET£º"{" >
 < reserved word£º"int" >
-< ID, name=£º"x" >
+< ID, name=£º"i" >
 < SEMI£º";" >
-< reserved word£º"int" >
-< ID, name=£º"y" >
-< SEMI£º";" >
-< ID, name=£º"x" >
+< ID, name=£º"i" >
 < ASSIGN£º"=" >
-< ID, name=£º"input" >
-< LPAREN£º"(" >
-< RPAREN£º")" >
-< SEMI£º";" >
-< ID, name=£º"y" >
-< ASSIGN£º"=" >
-< ID, name=£º"input" >
-< LPAREN£º"(" >
-< RPAREN£º")" >
+< NUM, val=£º"0" >
 < SEMI£º";" >
 < reserved word£º"while" >
 < LPAREN£º"(" >
-< ID, name=£º"x" >
+< ID, name=£º"i" >
 < LT£º"<" >
 < NUM, val=£º"10" >
 < RPAREN£º")" >
 < LBBRACKET£º"{" >
 < ID, name=£º"x" >
+< LMBRACKET£º"[" >
+< ID, name=£º"i" >
+< RMBRACKET£º"]" >
 < ASSIGN£º"=" >
+< ID, name=£º"input" >
+< SEMI£º";" >
+< ID, name=£º"i" >
+< ASSIGN£º"=" >
+< ID, name=£º"i" >
+< PLUS£º"+" >
+< NUM, val=£º"1" >
+< SEMI£º";" >
+< ID, name=£º"sort" >
+< LPAREN£º"(" >
 < ID, name=£º"x" >
+< COMMA£º"," >
+< NUM, val=£º"0" >
+< COMMA£º"," >
+< NUM, val=£º"10" >
+< RPAREN£º")" >
+< SEMI£º";" >
+< ID, name=£º"i" >
+< ASSIGN£º"=" >
+< NUM, val=£º"0" >
+< SEMI£º";" >
+< reserved word£º"while" >
+< LPAREN£º"(" >
+< ID, name=£º"i" >
+< LT£º"<" >
+< NUM, val=£º"10" >
+< RPAREN£º")" >
+< LBBRACKET£º"{" >
+< ID, name=£º"output" >
+< LPAREN£º"(" >
+< ID, name=£º"x" >
+< LMBRACKET£º"[" >
+< ID, name=£º"i" >
+< RMBRACKET£º"]" >
+< RPAREN£º")" >
+< SEMI£º";" >
+< ID, name=£º"i" >
+< ASSIGN£º"=" >
+< ID, name=£º"i" >
 < PLUS£º"+" >
 < NUM, val=£º"1" >
 < SEMI£º";" >
 < RBBRACKET£º"}" >
-< ID, name=£º"output" >
-< LPAREN£º"(" >
-< ID, name=£º"gcd" >
-< LPAREN£º"(" >
-< ID, name=£º"x" >
-< COMMA£º"," >
-< ID, name=£º"y" >
-< RPAREN£º")" >
-< RPAREN£º")" >
-< SEMI£º";" >
+< RBBRACKET£º"}" >
 < RBBRACKET£º"}" >

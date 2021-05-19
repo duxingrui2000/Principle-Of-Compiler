@@ -1,26 +1,44 @@
+/* A program to perform Euclid's
+Algorithm to compute gcd. */
+int global;
+int gcd (int u[], int v){
+    //This is function gcd
+    int local;
+    if (v == 0)
+        return u[10];
+    else
+        return gcd(v, u - u / v * v);
+}
+void main(void){
+    int x;
+    int y;
+    x = input();
+    y = input();
+    while(x < 10){
+        x = x + 1;
+    }
+    output(gcd(x , y));
+}
+
+
 /*A program to perform selection sort on a 10 element array*/
-//全局变量
-int global[10];
-//函数，参数列表中有多个参数以及数组
+int x[10];
 int minloc (int a[], int low, int high)
 {
     int i;
     int x;
-    int k;
+    itn k;
     k = low;
     x = a[low];
     i = low + 1;
-    //测试while
     while (i < high)
     {
-        //测试if与参数列表中的数组
         if (a[i] < x)
         {
             x = a[i];
             k = i;
             i = i + 1;
         }
-        //测试return
         return k;
     }
 }
@@ -39,7 +57,6 @@ void sort (int a[], int low, int high)
         i = i + 1;
     }
 }
-//空参数直接传void
 void main (void)
 {
     int i;
