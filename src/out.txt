@@ -1,0 +1,90 @@
+< reserved word£º"int" >
+< ID, name=£º"global" >
+< SEMI£º";" >
+< reserved word£º"int" >
+< ID, name=£º"gcd" >
+< LPAREN£º"(" >
+< reserved word£º"int" >
+< ID, name=£º"u" >
+< COMMA£º"," >
+< reserved word£º"int" >
+< ID, name=£º"v" >
+< RPAREN£º")" >
+< LBBRACKET£º"{" >
+< reserved word£º"int" >
+< ID, name=£º"local" >
+< SEMI£º";" >
+< reserved word£º"if" >
+< LPAREN£º"(" >
+< ID, name=£º"v" >
+< EQ£º"==" >
+< NUM, val=£º"0" >
+< RPAREN£º")" >
+< reserved word£º"return" >
+< ID, name=£º"u" >
+< SEMI£º";" >
+< reserved word£º"else" >
+< reserved word£º"return" >
+< ID, name=£º"gcd" >
+< LPAREN£º"(" >
+< ID, name=£º"v" >
+< COMMA£º"," >
+< ID, name=£º"u" >
+< MINUS£º"-" >
+< ID, name=£º"u" >
+< OVER£º"/" >
+< ID, name=£º"v" >
+< TIMES£º"*" >
+< ID, name=£º"v" >
+< RPAREN£º")" >
+< SEMI£º";" >
+< RBBRACKET£º"}" >
+< reserved word£º"void" >
+< ID, name=£º"main" >
+< LPAREN£º"(" >
+< reserved word£º"void" >
+< RPAREN£º")" >
+< LBBRACKET£º"{" >
+< reserved word£º"int" >
+< ID, name=£º"x" >
+< SEMI£º";" >
+< reserved word£º"int" >
+< ID, name=£º"y" >
+< SEMI£º";" >
+< ID, name=£º"x" >
+< ASSIGN£º"=" >
+< ID, name=£º"input" >
+< LPAREN£º"(" >
+< RPAREN£º")" >
+< SEMI£º";" >
+< ID, name=£º"y" >
+< ASSIGN£º"=" >
+< ID, name=£º"input" >
+< LPAREN£º"(" >
+< RPAREN£º")" >
+< SEMI£º";" >
+< reserved word£º"while" >
+< LPAREN£º"(" >
+< ID, name=£º"x" >
+< LT£º"<" >
+< NUM, val=£º"10" >
+< RPAREN£º")" >
+< LBBRACKET£º"{" >
+< ID, name=£º"x" >
+< ASSIGN£º"=" >
+< ID, name=£º"x" >
+< PLUS£º"+" >
+< NUM, val=£º"1" >
+< SEMI£º";" >
+< RBBRACKET£º"}" >
+< ID, name=£º"output" >
+< LPAREN£º"(" >
+< ID, name=£º"gcd" >
+< LPAREN£º"(" >
+< ID, name=£º"x" >
+< COMMA£º"," >
+< ID, name=£º"y" >
+< RPAREN£º")" >
+< RPAREN£º")" >
+< SEMI£º";" >
+< RBBRACKET£º"}" >

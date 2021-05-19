@@ -1,0 +1,21 @@
+/* A program to perform Euclid's
+Algorithm to compute gcd. */
+int global;
+int gcd(int u, int v){
+    //这里是gcd函数
+    int local;
+    if (v == 0)
+        return u ;
+    else
+        return gcd(v, u - u / v * v);
+}
+void main(void){
+    int x;
+    int y;
+    x = input();
+    y = input();
+    while(x < 10){
+        x = x + 1;
+    }
+    output(gcd(x , y));
+}
